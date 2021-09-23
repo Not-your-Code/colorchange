@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#submit{
+    border: 1px solid #3F3928 ;
+    background-color: white;
+    font-size: 20px;
+    color: #3F3928 ;
+    border-radius: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #3F3928 ;
+    color: white;
+    transition: 0.3s ease;
+}
